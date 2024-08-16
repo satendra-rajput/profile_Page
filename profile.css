@@ -1,0 +1,1145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.profile-container{
+    width: 100%;
+    height: auto;
+    background: #eeebe7;
+}
+
+.profile-row{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-banner-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #275ecb;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+}
+
+.profile-banner-image{
+    width: 100%;
+    height: 200px;
+    background-image: url(img/profile1200.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.profile_balance{
+    padding: 15px 0px;
+}
+.profile_balance h4{
+    font-size: 25px;
+    padding: 6px 0px;
+}
+.profile-verify{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 5px;
+}
+
+.verify-icon{
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+
+.verify-icon p{
+    color: #275aca;
+}
+
+.profile-qr{
+    color: #275aca;
+}
+.profile-qr span{
+    color: #275aca;
+    font-size: 40px;
+}
+
+.profile-members{
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+.profile-members-heading{
+    color: #275aca;
+    font-size: 25px;
+}
+
+.profile-members-level{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+.profile-members-level .level_1 h3{
+    color: #275aca;
+    font-size: 30px;
+}
+.profile-members-level .level_1 p{
+    color: #ccc;
+    font-size: 25px;
+    font-weight: 500;
+}
+.profile-members-level .border-right{
+    width: 10px;
+    height: 50px;
+    border-right: 3px solid #ccc;
+}
+
+.profile-edit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.profile-edit-link a{
+    text-decoration: none;
+    color: #275aca;
+    font-size: 25px;
+    font-weight: 600;
+}
+.profile-edit-link a span{ 
+   display: none;
+}
+
+.profile-bank-heading{
+    font-size: 25px;
+    color: #2761cb;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+
+.profile-bank{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #275aca;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+.bank-add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    margin: 15px 10px;
+}
+.bank-add input{
+    width: 100%;
+    height: 32px;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #a4a0a0;
+    outline: none;
+    font-size: 15px;
+}
+
+
+.bank-add button{
+    border: none;
+    background: #275ecb;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 7%;
+    margin-bottom: 13px;
+}
+
+.bank-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+}
+.bank-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.bank-icons img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.bank-icons h4{
+    color: #3a3a3a;
+}
+.bank-icons p{
+    letter-spacing: 1px;
+    color: #626262;
+}
+
+.bank-defult button{
+    border: none;
+    background: #275ecb;
+    padding: 7px 25px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.profile-pass-logou{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.change-pass, .logout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+}
+ .change-pass span{
+    transform: rotate3d(2, 6, 0, -190deg);
+ }
+
+
+
+.profile-friend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.profile-friend-link a{
+    text-decoration: none;
+    color: #b3b4b8;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.profile-friend-link a span{ 
+    display: none;
+ }
+@media (max-width:768px) {
+    .profile-banner-image{
+        width: 100%;
+        height: 180px;
+        background-image: url(img/profile_banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .profile_balance {
+        padding-bottom: 5px;
+    }
+
+    .profile_balance h4 {
+        font-size: 14px;
+        padding: 1px 0px;
+    }
+    .profile_balance p{
+        font-size: 10px;
+        padding: 1px 0px;
+    }
+
+    .profile-verify-heading {
+        font-size: 18px;
+    }
+    .profile-qr span{
+        color: #275aca;
+        font-size: 40px;
+    }
+
+    .profile-members-heading{
+        font-size: 15px;
+    }
+
+    .profile-members-level {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .profile-members-level .level_1 h3 {
+        color: #275aca;
+        font-size: 18px;
+    }
+    .profile-members-level .level_1 p {
+        color: #ccc;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .profile-edit-link a {
+        text-decoration: none;
+        color: #275aca;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .profile-edit-link a span{
+        font-size: 16px;
+    }
+    .profile-bank-heading {
+        font-size: 16px;
+        color: #2761cb;
+        font-weight: 600;
+        padding: 0px 10px;
+    }
+
+    .bank-add {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 0px;
+        margin: 14px 10px;
+    }
+    .bank-add input{
+        width: 100%;
+        height: 32px;
+        border: none;
+        background: transparent;
+        outline: none;
+        font-size: 15px;
+        border-bottom: 3px solid #ada4a4;
+    }
+
+    .bank-add button{
+        border: none;
+        background: #275ecb;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        right: 7%;
+        margin-bottom: 13px;
+    }
+
+    .bank-name {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 6px;
+    }
+    .bank-icons img {
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+    }
+
+    .bank-icons h4 {
+        color: #3a3a3a;
+        font-size: 14px;
+    }
+
+    .bank-icons p {
+        letter-spacing: 1px;
+        color: #626262;
+        font-size: 14px;
+    }
+
+    .bank-defult button {
+        border: none;
+        background: #275ecb;
+        padding: 6px 16px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .profile-friend-link a {
+        text-decoration: none;
+        color: #275aca;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .change-pass span {
+        transform: rotate3d(2, 6, 0, -190deg);
+        font-size: 14px;
+    }
+    .change-pass p{
+        font-size: 10px;
+    }
+    .logout p{
+        font-size: 10px;
+    }
+    .logout span{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:480px) {
+    .profile-banner-image{
+        width: 100%;
+        height: 100px;
+        background-image: url(img/profile_banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .profile_balance {
+        padding-bottom: 5px;
+    }
+
+    .profile_balance h4 {
+        font-size: 14px;
+        padding: 1px 0px;
+    }
+    .profile_balance p{
+        font-size: 10px;
+        padding: 1px 0px;
+    }
+
+    .profile-verify-heading {
+        font-size: 12px;
+    }
+    .profile-members-heading{
+        font-size: 15px;
+    }
+
+    .profile-members-level {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .profile-members-level .level_1 h3 {
+        color: #275aca;
+        font-size: 18px;
+    }
+    .profile-members-level .level_1 p {
+        color: #ccc;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .profile-edit-link a {
+        text-decoration: none;
+        color: #275aca;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .profile-edit-link a span{
+        font-size: 16px;
+    }
+
+    .profile-edit-link a span{ 
+        display: block;
+     }
+
+    .profile-bank-heading {
+        font-size: 16px;
+        color: #2761cb;
+        font-weight: 600;
+        padding: 0px 10px;
+    }
+
+    .bank-add {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 0px;
+        margin: 14px 10px;
+    }
+    .bank-add input {
+        width: 100%;
+        height: 32px;
+        border: none;
+        background: transparent;
+        border-bottom: 3px solid #a4a0a0;
+        outline: none;
+        font-size: 10px;
+    }
+    .bank-add button{
+        border: none;
+        background: #275ecb;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        right: 10%;
+        margin-bottom: 13px;
+    }
+
+    .bank-name {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 6px;
+    }
+    .bank-icons img {
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+    }
+
+    .bank-icons h4 {
+        color: #3a3a3a;
+        font-size: 14px;
+    }
+
+    .bank-icons p {
+        letter-spacing: 1px;
+        color: #626262;
+        font-size: 14px;
+    }
+
+    .bank-defult button {
+        border: none;
+        background: #275ecb;
+        padding: 6px 16px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .profile-friend-link a {
+        text-decoration: none;
+        color: #b3b4b8;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .profile-friend-link span{ 
+        display: block;
+        color: #626262;
+     }
+
+    .change-pass span {
+        transform: rotate3d(2, 6, 0, -190deg);
+        font-size: 14px;
+    }
+    .change-pass p{
+        font-size: 10px;
+    }
+    .logout p{
+        font-size: 10px;
+    }
+    .logout span{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:380px) {
+    .profile-banner-image{
+        width: 100%;
+        height: 100px;
+        background-image: url(img/profile_banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .profile_balance {
+        padding-bottom: 5px;
+    }
+
+    .profile_balance h4 {
+        font-size: 14px;
+        padding: 1px 0px;
+    }
+    .profile_balance p{
+        font-size: 10px;
+        padding: 1px 0px;
+    }
+
+    .profile-verify-heading {
+        font-size: 12px;
+    }
+    .profile-members-heading{
+        font-size: 15px;
+    }
+
+    .profile-members-level {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .profile-members-level .level_1 h3 {
+        color: #275aca;
+        font-size: 18px;
+    }
+    .profile-members-level .level_1 p {
+        color: #ccc;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .profile-edit-link a {
+        text-decoration: none;
+        color: #275aca;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .profile-edit-link a span{
+        font-size: 16px;
+    }
+    .profile-bank-heading {
+        font-size: 16px;
+        color: #2761cb;
+        font-weight: 600;
+        padding: 0px 10px;
+    }
+
+    .bank-add {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 0px;
+        margin: 14px 10px;
+    }
+    .bank-add input {
+        width: 100%;
+        height: 32px;
+        border: none;
+        background: transparent;
+        border-bottom: 3px solid #a4a0a0;
+        outline: none;
+        font-size: 9px;
+    }
+    .bank-add button{
+        border: none;
+        background: #275ecb;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        right: 10%;
+        margin-bottom: 13px;
+    }
+
+    .bank-name {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 6px;
+    }
+    .bank-icons img {
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+    }
+
+    .bank-icons h4 {
+        color: #3a3a3a;
+        font-size: 14px;
+    }
+
+    .bank-icons p {
+        letter-spacing: 1px;
+        color: #626262;
+        font-size: 14px;
+    }
+
+    .bank-defult button {
+        border: none;
+        background: #275ecb;
+        padding: 6px 16px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .profile-friend-link a {
+        text-decoration: none;
+        color: #b3b4b8;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .profile-friend-link a span{ 
+        display: block;
+        color: #626262;
+     }
+
+
+    .change-pass span {
+        transform: rotate3d(2, 6, 0, -190deg);
+        font-size: 14px;
+    }
+    .change-pass p{
+        font-size: 10px;
+    }
+    .logout p{
+        font-size: 10px;
+    }
+    .logout span{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:320px) {
+    .profile-banner-image{
+        width: 100%;
+        height: 100px;
+        background-image: url(img/profile_banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .profile_balance {
+        padding-bottom: 5px;
+    }
+
+    .profile_balance h4 {
+        font-size: 14px;
+        padding: 1px 0px;
+    }
+    .profile_balance p{
+        font-size: 10px;
+        padding: 1px 0px;
+    }
+
+    .profile-verify-heading {
+        font-size: 12px;
+    }
+    .profile-members-heading{
+        font-size: 15px;
+    }
+
+    .profile-members-level {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .profile-members-level .level_1 h3 {
+        color: #275aca;
+        font-size: 18px;
+    }
+    .profile-members-level .level_1 p {
+        color: #ccc;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .profile-edit-link a {
+        text-decoration: none;
+        color: #275aca;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .profile-edit-link a span{
+        font-size: 16px;
+    }
+    .profile-bank-heading {
+        font-size: 16px;
+        color: #2761cb;
+        font-weight: 600;
+        padding: 0px 10px;
+    }
+
+    .bank-add {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 0px;
+        margin: 14px 10px;
+    }
+    .bank-add input {
+        width: 100%;
+        height: 32px;
+        border: none;
+        background: transparent;
+        border-bottom: 3px solid #a4a0a0;
+        outline: none;
+        font-size: 9px;
+    }
+    .bank-add button{
+        border: none;
+        background: #275ecb;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        right: 10%;
+        margin-bottom: 13px;
+    }
+
+    .bank-name {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 6px;
+    }
+    .bank-icons img {
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+    }
+
+    .bank-icons h4 {
+        color: #3a3a3a;
+        font-size: 14px;
+    }
+
+    .bank-icons p {
+        letter-spacing: 1px;
+        color: #626262;
+        font-size: 14px;
+    }
+
+    .bank-defult button {
+        border: none;
+        background: #275ecb;
+        padding: 6px 16px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .profile-friend-link a {
+        text-decoration: none;
+        color: #b3b4b8;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .profile-friend-link a span{ 
+        display: block;
+        color: #626262;
+     }
+
+
+    .change-pass span {
+        transform: rotate3d(2, 6, 0, -190deg);
+        font-size: 14px;
+    }
+    .change-pass p{
+        font-size: 10px;
+    }
+    .logout p{
+        font-size: 10px;
+    }
+    .logout span{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    bottom: 200px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content */
+  .modalcontent {
+    background-color: #fefefe;
+    margin: 0% auto; /* 15% from the top and centered */
+    padding:    0px;
+    border: 1px solid #888;
+    width: 400px; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #313030;
+  }
+
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+
+    padding: 10px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+.formcontainer {
+    width: 360px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0px;
+    border-radius: 8px;
+    margin-left: 25px;
+}
+
+.formcontainer p{
+    color: #275bc2;
+    text-shadow: 0px 0px 1px #275bc2;
+}
+
+h2 {
+    margin-top: 0;
+    color: #275bc2;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #275bc2;
+    text-shadow: 0px 0px 1px #275bc2;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.formcontainer input {
+    width: 90%;
+    height: 25px;
+    padding: 8px 8px;
+    margin-bottom: 10px;
+    border: 2px solid #275bc2;
+    border-radius: 12px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 34px
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button[type="button"] {
+    background-color: #275ecb;
+    color: white;
+    padding: 10px 49px;
+}
+
+.buttons button[type="reset"] {
+    background-color: #f6f1f1;
+    color: #5d5b5b;
+    padding: 10px 49px;
+    border: .5px solid #5d5b5b;
+    border-radius: 10px;
+}
+
+.error {
+    color: red !important;
+    margin-top: 10px;
+}
+.text-danger {
+    color: red !important;
+}
+
+@media (max-width:450px) {
+        .modalcontent {
+            background-color: #fefefe;
+            margin: 2% auto;
+            padding: 0px;
+            border: 1px solid #888;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px #313030;
+    }
+
+    .formcontainer {
+        width: 320px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .formcontainer input {
+        width: 90%;
+        height: 20px;
+        padding: 8px 8px;
+        margin-bottom: 10px;
+        border: 2px solid #275bc2;
+        border-radius: 12px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        outline: none;
+    }
+
+    label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #275bc2;
+        text-shadow: 0px 0px 1px #275bc2;
+        font-size: 16px;
+        margin-left: 8px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 14px;
+        margin-top: 10px;
+    }
+
+    .buttons button[type="button"] {
+        background-color: #275ecb;
+        color: white;
+        padding: 10px 130px;
+    }
+    .buttons button[type="reset"] {
+        background-color: #f6f1f1;
+        color: #5d5b5b;
+        padding: 10px 130px;
+        border: .5px solid #5d5b5b;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:350px) {
+    .modalcontent {
+        background-color: #fefefe;
+        margin: 2% auto;
+        padding: 0px;
+        border: 1px solid #888;
+        width: 95%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px #313030;
+}
+
+.formcontainer {
+    width: 330px;
+    margin: auto 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0px;
+}
+.formcontainer p {
+    color: #275bc2;
+    text-shadow: 0px 0px 1px #275bc2;
+    text-wrap: balance;
+}
+.formcontainer h2 {
+    margin-top: 0;
+    color: #275bc2;
+    padding-bottom: 12px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.formcontainer input {
+    width: 75%;
+    height: 20px;
+    padding: 8px 8px;
+    margin-bottom: 10px;
+    border: 2px solid #275bc2;
+    border-radius: 12px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #275bc2;
+    text-shadow: 0px 0px 1px #275bc2;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.buttons button[type="button"] {
+    background-color: #275ecb;
+    color: white;
+    padding: 10px 112px;
+    margin-right: 60px;
+}
+.buttons button[type="reset"] {
+    background-color: #f6f1f1;
+    color: #5d5b5b;
+    border: .5px solid #5d5b5b;
+    border-radius: 5px;
+    padding: 10px 112px;
+    margin-right: 60px;
+}
+
+
+
+}
+
+
+
